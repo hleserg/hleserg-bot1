@@ -1,3 +1,3 @@
-bot: python3 telegram/bot.py
-echobot: python3 telegram/echobot.py
-timerbot: python3 telegram/timerbot.py
+bot: python telegram/bot.py
+echobot: python telegram/echobot.py
+timerbot: python telegram/timerbot.py
