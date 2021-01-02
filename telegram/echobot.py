@@ -68,7 +68,7 @@ def main():
     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
 
     # Start the Bot
-    updater.start_polling()
+    updater.start_webhook(,,url_path='https://hleserg-bot1.herokuapp.com/')
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since
